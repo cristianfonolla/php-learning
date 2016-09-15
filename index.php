@@ -13,10 +13,13 @@
         <h1>
 
             <?php
+//                $name = $_GET{'name'};
+//                echo "Hola " . $name . "!";
 
-                echo "Hola" . $_GET{'name'} . "!";
+
 
             ?>
+            <?= 'Hola ' . $_GET{'name'} . '!'  ?>
         </h1>
 
     </body>
