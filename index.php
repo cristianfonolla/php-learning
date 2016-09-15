@@ -1,3 +1,6 @@
 <?php
 
-echo "Hola mòn!";
+$greeting = "Hola mon!";
+
+
+echo $greeting;
