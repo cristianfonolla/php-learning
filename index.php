@@ -5,7 +5,7 @@
 //
 //echo $greeting;
 
-
+$greeting = "Hola";
 $name = "Cristian";
 
-echo 'Hola' . $name . '!';
+echo $greeting . $name . '!';
