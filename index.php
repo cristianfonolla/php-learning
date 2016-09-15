@@ -19,7 +19,7 @@
 
 
             ?>
-            <?= 'Hola ' . $_GET{'name'} . '!'  ?>
+            <?= 'Hola ' . htmlspecialchars($_GET{'name'}) . '!'  ?>
         </h1>
 
     </body>
