@@ -12,8 +12,8 @@
 
 
         <ul>
-            <?php foreach ($names as $name) :      ?>
-            <li><?=  $name   ?></li>
+            <?php foreach ($person as $key => $dada) :      ?>
+            <li><?=  $key   ?> :  <?= $dada  ?>   </li>
             <?php endforeach;   ?>
         </ul>
 

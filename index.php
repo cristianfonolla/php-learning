@@ -1,16 +1,29 @@
 <?php
 
-//$greeting = "Hola " . $_GET{'name'} . "!";
-//
 
+$names = [
 
+    'Sergi',
+    'Xavi',
+    'Romeu',
+];
 
-//ESTRUCTURA DE DADES:
-//Arrays PHP totes les estructures: Maps, Piles, Vectors,Llistes, etc...
+//ARRAYS ASOSIATIUS
 
-$names = ['Sergi','Xavi','Romeu'];
+$person = [
 
+    'name' => 'Sergi',
+    'sn1' => 'Tur',
+    'sn2' => 'Badenas',
+    'edad' => 38,
+    'married' => true
+];
 
+//var_dump($names);
+
+echo $names[0];
+
+echo $person['sn1'];
 
 
 require 'index.template.php';
