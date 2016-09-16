@@ -13,37 +13,16 @@
 
         <ul>
 
-            <li><?= $person[married] ? "Casat" : "Solter";    ?>
+            <li>
+
+                <?=  hello('Sergi','Tur');  ?>
 
 
 
 
 
 
-
-
-
-
-                //condicionals
-//                if($person['married']) {
-//
-//                echo "Casat";
-//
-//                } else {
-//
-//                    echo "Solter";
-//
-//                }
-
-
-
-
-
-
-
-
-
-                </li>
+            </li>
 
         </ul>
 
