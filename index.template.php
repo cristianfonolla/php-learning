@@ -10,11 +10,34 @@
 
     <body>
 
-        <h1>
 
-            <?= $greeting;?>
+        <ul>
+            <?php foreach ($names as $name) :      ?>
+            <li><?=  $name   ?></li>
+            <?php endforeach;   ?>
+        </ul>
 
-        </h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     </body>
 
