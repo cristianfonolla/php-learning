@@ -15,7 +15,7 @@
 
             <li>
 
-                <?=  hello('Sergi','Tur');  ?>
+                <?=  hellovtortosa('Sergi'  );  ?>
 
 
 
