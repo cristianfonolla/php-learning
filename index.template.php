@@ -12,9 +12,29 @@
 
 
         <ul>
-            <?php foreach ($person as $key => $dada) :      ?>
-            <li><?=  $key   ?> :  <?= $dada  ?>   </li>
-            <?php endforeach;   ?>
+
+            <li> <?php
+
+                if($person['married' == true]) {
+
+                echo "Casat";
+
+                } else {
+
+                    echo "Solter";
+
+                }
+
+
+
+
+
+
+
+
+
+                ?></li>
+
         </ul>
 
 
