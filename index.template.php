@@ -13,17 +13,7 @@
 
         <ul>
 
-            <li> <?php
-
-                if($person['married' == true]) {
-
-                echo "Casat";
-
-                } else {
-
-                    echo "Solter";
-
-                }
+            <li><?= $person[married] ? "Casat" : "Solter";    ?>
 
 
 
@@ -33,7 +23,27 @@
 
 
 
-                ?></li>
+
+                //condicionals
+//                if($person['married']) {
+//
+//                echo "Casat";
+//
+//                } else {
+//
+//                    echo "Solter";
+//
+//                }
+
+
+
+
+
+
+
+
+
+                </li>
 
         </ul>
 
