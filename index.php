@@ -24,6 +24,8 @@ $person = [
 echo $names[0];
 
 echo $person['sn1'];
+$married = false;
+$married = true;
 
 
 require 'index.template.php';
