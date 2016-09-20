@@ -3,13 +3,15 @@
 
 require 'function.php';
 require 'Task.php';
-require 'Connection.php';
+require 'database/Connection.php';
+require 'database/QueryBuilder.php';
 
 // PDO: Php Data Objects library/biblioteca
 
 $pdo = Connection::make();
 
-$tasks = allTasks($pdo);
+$query = new QueryBuilder();
+$tasks = $query->all($pdo,'todos');
 
 
 
