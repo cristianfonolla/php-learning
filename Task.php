@@ -18,11 +18,13 @@ class Task {
 
     }
 
-    public function isComplete(){
-        return $this->completed;
+    public function description($description){
+        $this->description = $description;
     }
 
-
+    public function completed(){
+        return $this->completed;
+    }
 
 
 
