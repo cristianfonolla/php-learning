@@ -25,7 +25,13 @@ $query = $pdo->prepare("SELECT * FROM todos");
 
 $query->execute();
 
-var_dump($query->fetchAll(PDO::FETCH_CLASS,Task::class)[0]->completed);
+$results = $query->fetchAll(PDO::FETCH_CLASS|PDO::FETCH_PROPS_LATE,Task::class);
+
+$task1 = $results[0];
+
+var_dump($task1->id);
+
+var_dump($task1);
 
 
 
