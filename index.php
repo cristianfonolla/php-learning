@@ -3,11 +3,11 @@
 
 require 'function.php';
 require 'Task.php';
-
+require 'Connection.php';
 
 // PDO: Php Data Objects library/biblioteca
 
-$pdo = connect();
+$pdo = Connection::make();
 
 $tasks = allTasks($pdo);
 
