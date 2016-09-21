@@ -9,7 +9,6 @@ require 'database/QueryBuilder.php';
 // PDO: Php Data Objects library/biblioteca
 
 $pdo = Connection::make();
-
 $query = new QueryBuilder();
 $tasks = $query->all($pdo,'todos');
 
