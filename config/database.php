@@ -2,24 +2,13 @@
 
 //Fitxers de configuracio millor en un array en PHP.
 
-[
+return [
 
-    'type' => 'mysql',
-    'name' => 'prova',
+    'dbtype' => 'mysql',
+    'dbname' => 'prova',
     'username' => 'root',
     'password' => '',
-    'host' => '127.0.0.1',
-
-
-
-
-
-
-
-
-
-
-
-]
+    'dbhost' => '127.0.0.1',
+];
 
 
