@@ -1,16 +1,15 @@
 <?php
-
+require 'core/bootstrap.php';
 //$tasks = $query->all('todos');
 //
 
 
-$routes = [
+require 'routes.php';
 
-    ''          => 'controllers/tasks.php',
-    'persons'   => 'controllers/persons.php',
-    'about'     => 'controllers/about.php',
-    'contact'   => 'contact.php',
-];
+
+
+
+
 $uri = trim($_SERVER['REQUEST_URI'],'/');
 
 if (array_key_exists($uri,$routes)){
