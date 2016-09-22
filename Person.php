@@ -1,33 +1,71 @@
 <?php
-//contenedor de Tasques.
 
 class Person
 {
-
     protected $name;
-    protected $midname;
+    protected $midlename;
     protected $lastname;
 
-
-    public function __construct($name, $midname, $lastname)
+    /**
+     * Person constructor.
+     * @param $name
+     * @param $midlename
+     * @param $lastname
+     */
+    public function __construct($name, $midlename, $lastname)
     {
         $this->name = $name;
-        $this->midname = $midname;
+        $this->midlename = $midlename;
         $this->lastname = $lastname;
     }
 
-    public function complete() {
-        $this->completed
+    /**
+     * @return mixed
+     */
+    public function getName()
+    {
+        return $this->name;
     }
 
+    /**
+     * @param mixed $name
+     */
+    public function setName($name)
+    {
+        $this->name = $name;
+    }
 
+    /**
+     * @return mixed
+     */
+    public function getMidlename()
+    {
+        return $this->midlename;
+    }
 
+    /**
+     * @param mixed $midlename
+     */
+    public function setMidlename($midlename)
+    {
+        $this->midlename = $midlename;
+    }
 
+    /**
+     * @return mixed
+     */
+    public function getLastname()
+    {
+        return $this->lastname;
+    }
 
-
-
-
-
+    /**
+     * @param mixed $lastname
+     */
+    public function setLastname($lastname)
+    {
+        $this->lastname = $lastname;
+    }
 
 
 

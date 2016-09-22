@@ -1,8 +1,5 @@
 <?php
 
-
 return [
-
-    'DatabaseErrorConection' => 'Ha hagut un error durant la conexio.',
-
+    'DatabaseErrorConnection'     => 'Ha succeït un error durant la connexió. Missatge: ',
 ];
