@@ -11,11 +11,10 @@ $config = require 'config/database.php';
 $message = require 'config/message.php';
 
 $pdo = Connection::make($config,$message);
-$query = new QueryBuilder();
-$tasks = $query->all($pdo,'todos');
-
-
-
-
-
+$query = new QueryBuilder($pdo);
+$tasks = $query->all($pdo, 'todos');
 require 'index.template.php';
+
+
+//DRY: Dont Repeat Yourself
+//WET: Write Everithing Twice
