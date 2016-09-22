@@ -8,18 +8,19 @@
     <title>Document</title>
 </head>
 <body>
-
+      <?php require 'menu.php';?>
       <ul>
           <?php foreach ($tasks as $task) : ?>
               <li>
                   <?php if ($task->completed) : ?>
+                       ID = <?= $task->id ?> //
                       <strike><?= $task->description ?></strike>
                   <?php else:?>
+                      ID = <?= $task->id ?> //
                       <?= $task->description ?>
                   <?php endif;?>
               </li>
           <?php endforeach;?>
       </ul>
-
 </body>
 </html>

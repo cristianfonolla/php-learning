@@ -2,7 +2,7 @@
 
 require 'functions.php';
 
-require 'Task.php';
+require 'Models/Task.php';
 
 require 'database/Connection.php';
 
@@ -15,7 +15,3 @@ $message = require 'config/message.php';
 $pdo = Connection::make($config,$message);
 
 $query = new QueryBuilder($pdo);
-
-$tasks = $query->all('persons');
-
-require 'index.template.php';

@@ -8,36 +8,17 @@
     <title>Document</title>
 </head>
 <body>
-
-
+<?php require 'menu.php';?>
 <ul>
-
-    <?php foreach($tasks as $task) : ?>
-
-
+    <?php foreach ($persons as $person) : ?>
         <li>
-
-        <?php if ($task->completed) : ?>
-            <strike><?= $task->description?></strike>
-        <?php else:?>
-            <?=$task->description?>
-            <?php endif;?>
-                
-
-
-
+            <?= $person->PersonID ?><br>
+            <?= $person->LastName ?>
+            <?= $person->FirstName ?><br>
+            <?= $person->Address ?><br>
+            <?= $person->City ?>
         </li>
-
-
     <?php endforeach;?>
-
-
-
 </ul>
-
-
-
-
-
 </body>
 </html>
