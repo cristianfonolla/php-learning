@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae844a0e-dbc4-4efb-9a3a-0b2929cdb3ba" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/Request.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/Router.php" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/views/routes.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/functions.php" afterPath="$PROJECT_DIR$/core/functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <ignored path="php-learning.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -307,12 +302,12 @@
       <workItem from="1474477838531" duration="3139000" />
       <workItem from="1474568004782" duration="6300000" />
       <workItem from="1474618323602" duration="237000" />
-      <workItem from="1474637961374" duration="2938000" />
+      <workItem from="1474637961374" duration="3335000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37587000" />
+    <option name="totallyTimeSpent" value="37984000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1442" height="875" extended-state="6" />
