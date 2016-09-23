@@ -4,13 +4,19 @@ require "core/bootstrap.php";
 
 require 'routes.php';
 
-$uri = trim($_SERVER['REQUEST_URI'],'/');
+require "core/Request.php";
 
-if ( array_key_exists($uri,$routes) ) {
-    require $routes[$uri];
-} else {
-    throw new Exception("No s'ha trobat la ruta");
-}
+require "core/Router.php";
+
+$uri = Request::uri();
+
+$router = new Router();
+
+$router->define($routes);
+
+$router = Router::direct($uri);
+
+
 
 //DRY: DON'T REPEAT YOURSELF
 //WET: WRITE EVERITHING TWICE

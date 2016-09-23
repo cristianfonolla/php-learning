@@ -18,3 +18,11 @@ function sum() {
     return array_sum(func_get_args());
 }
 
+function uri() {
+
+
+    $uri = trim($_SERVER['REQUEST_URI'],'/');
+
+
+
+}
