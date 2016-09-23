@@ -8,7 +8,9 @@
     <title>Contacte</title>
 </head>
 <body>
-<?php require '../views/menu.php';?>
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus adipisci beatae consequatur dicta distinctio doloribus enim fugit itaque, labore laboriosam laborum minus natus obcaecati quam quibusdam? Facere itaque qui voluptates?
+
+<?php require 'views/menu.php' ?>
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad asperiores blanditiis consectetur cupiditate et eveniet, fugiat in inventore minima, nesciunt odio quia sint ullam. Aliquam et in praesentium quod sit.
 </body>
 </html>

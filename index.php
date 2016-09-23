@@ -1,34 +1,20 @@
 <?php
-require 'core/bootstrap.php';
-//$tasks = $query->all('todos');
-//
 
+require "core/bootstrap.php";
 
 require 'routes.php';
 
-
-
-
-
 $uri = trim($_SERVER['REQUEST_URI'],'/');
 
-if (array_key_exists($uri,$routes)){
-
+if ( array_key_exists($uri,$routes) ) {
     require $routes[$uri];
-
-
 } else {
-
-    throw new Exception("No s'ha trobat la ruta 404 ERROR");
+    throw new Exception("No s'ha trobat la ruta");
 }
 
+//DRY: DON'T REPEAT YOURSELF
+//WET: WRITE EVERITHING TWICE
 
+// MVC
 
-
-
-
-
-
-
-
-//require 'views/tasks.template.php';
+// FC Front Controller
