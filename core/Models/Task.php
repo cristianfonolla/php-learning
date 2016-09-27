@@ -1,4 +1,5 @@
 <?php
+namespace Enom;
 
 /*
  * POPO: Plain Old PHP Object | Contenedor de tasques | Model

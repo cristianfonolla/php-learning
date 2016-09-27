@@ -1,5 +1,8 @@
 <?php
 
+
+namespace Enom;
+
 /**
  * Class Router
  */

@@ -7,5 +7,16 @@
             "email": "cristian.fonolla@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+
+    },
+    "autoload" : {
+        "psr-4" : {
+            "Enom\\" : "/"
+        }
+
+    },
+    "files" :   ["core/functions.php"]
+
+
 }

@@ -1,4 +1,5 @@
 <?php
+require __DIR__ . "/../vendor/autoload.php";
 
 require 'functions.php';
 
@@ -12,6 +13,7 @@ $config = require 'config/database.php';
 
 $message = require 'config/message.php';
 
-$pdo = Connection::make($config,$message);
+$pdo = \Enom\Connection::make($config,$message);
 
-$query = new QueryBuilder($pdo);
+$query = new \Enom\QueryBuilder($pdo);
+

@@ -1,4 +1,5 @@
 <?php
+namespace Enom;
 
 class Person
 {

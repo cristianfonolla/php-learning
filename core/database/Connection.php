@@ -1,6 +1,8 @@
 <?php
+namespace Enom;
 
-
+use PDO;
+use PDOException;
 
 /**
  * Class Connection
