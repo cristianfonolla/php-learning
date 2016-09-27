@@ -1,0 +1,11 @@
+{
+    "name": "cristian/php-learning",
+    "description": "bla",
+    "authors": [
+        {
+            "name": "cristian",
+            "email": "cristian.fonolla@gmail.com"
+        }
+    ],
+    "require": {}
+}
